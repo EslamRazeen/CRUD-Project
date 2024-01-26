@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.project{
+    width: 75%;
+    margin: auto;
+}
+
+.project .header{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.header h1{
+    margin-bottom: 7px;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+}
+.product input{
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #111;
+    outline: none;
+    color: #fff;
+    transition: .3s;
+}
+.product input:focus{
+    background-color: #000;
+    transform: scale(1.1);
+}
+.product .price input{
+    margin-right: 5px;
+    width: 20%;
+}
+.price .total{
+    background-color: rgb(147, 2, 2);
+    padding: 5px;
+    border-radius: 3px;
+}
+button{
+    background-color: rgb(90, 2, 27);
+    border-radius: 50px;
+    padding: 6px;
+    border: none;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: .3s;
+}
+.product button{
+    margin-top: 9px;
+    padding: 9px;
+}
+button:hover{
+    background-color: rgb(124, 21, 21);
+    transform: scale(1.03);
+}
+
+.del button{
+    width: 100%;
+}
+
+.pp{
+    background-color: rgb(7, 56, 111);
+    color: white;
+    padding: 5px;
+    font-size: 1.1em;
+    margin: 12px 0;
+    border-radius: 9px;
+    width: fit-content;
+}
+
+table{
+    width: 100%;
+    margin:10px 0;
+    text-align: center;
+}
+table th{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+tbody tr td{
+    padding: 8px 0;
+    font-size: 17px;
+}
+tbody tr td button{
+    padding: 10px;
+    font-size: 17px;
+    letter-spacing: 2px;
+}

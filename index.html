@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProductManagment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="project">
+
+        <div class="header">
+            <h1>cruds</h1>
+            <h4>product managment system</h4>
+        </div>
+
+        <div class="product">
+            <input type="text" id="title" placeholder="Title">
+            <div class="price">
+                <input onkeyup="getTotal()" type="number" id="price" placeholder="Price">
+                <input onkeyup="getTotal()" type="number" id="taxes" placeholder="Taxes">
+                <input onkeyup="getTotal()" type="number" id="ads" placeholder="Ads">
+                <input onkeyup="getTotal()" type="number" id="discount" placeholder="Discount">
+                <span class="total">Total:</span>
+            </div>
+            <input type="number" id="count" placeholder="Count">
+            <input type="text" id="category" placeholder="Category">
+            <button id="create">Create</button>
+            <span class="del"></span>
+            <p class="p"></p>
+        </div>
+
+        <div class="outputs">
+
+
+            <table>
+                <thead>
+                    <th>id</th>
+                    <th>titl</th>
+                    <th>pri ce</th>
+                    <th>taxes</th>
+                    <th>ads</th>
+                    <th>discount</th>
+                    <th>total</th>
+                    <th>category</th>
+                    <th>update</th>
+                    <th>delete</th>
+                </thead>
+                
+                <tbody class="product-table">
+
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
